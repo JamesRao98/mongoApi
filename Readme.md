@@ -1,9 +1,9 @@
 # Mongo DB Rest API
-This is a RESTful API for a MongoDB Database, written in Node.js. This project uses the web framework Express.js. It handles errors gracefully by returning standard error codes, allows filtering, sorting and pagination, includes JWT Authentication and role based authorization, has an in memory cacheing system and can be easily versioned.
+This is a RESTful API for a MongoDB Database, written in Node.js. This project uses the web framework Express.js. It handles errors gracefully by returning standard error codes, allows filtering, sorting and pagination, includes JWT Authentication and role based authorization, has an in memory caching system and can be easily versioned.
 
 ## Getting Started
 In order to run this API, first you will have to clone the repository and install the dependencies. If you do not have npm installed, you will need to do so.
-```
+```bash
 git clone https://github.com/JamesRao98/mongoApi
 cd mongoApi
 npm install
@@ -15,7 +15,7 @@ PORT=3000
 TOKEN_SECRET=this is a secret
 ```
 If you are deploying to a production environment, you should set the environment variables directly in the host. To start the api, run the following command.
-```
+```bash
 npm start
 ```
 After the api has started you will be able to send http requests to http://locahost:3000 or whatever port you specified.
